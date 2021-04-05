@@ -1,0 +1,856 @@
+@font-face {
+	font-family: gamefont;
+	src: url(https://fonts.gstatic.com/s/inter/v2/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZ9hiA.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: hpammo;
+	src: url(https://fonts.gstatic.com/s/inter/v2/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZ9hiA.woff2) format('woff2');
+}
+
+.iconProfile {
+    background-image: url(https://media.discordapp.net/attachments/709042064721182781/752593876832747640/profile.png);
+}
+
+.iconShop {
+    background-image: url(https://media.discordapp.net/attachments/709042064721182781/752593697291632690/shop.png);
+}
+
+.iconChall {
+    background-image: url(https://media.discordapp.net/attachments/709042064721182781/752593318147522681/chall.png);
+}
+
+.iconSocial {
+    background-image: url(https://media.discordapp.net/attachments/709042064721182781/752592295454310461/social.png);
+}
+
+.iconGames {
+    background-image: url(https://cdn.discordapp.com/attachments/717771741476421653/737381441893040138/games.png);
+}
+
+.iconMods {
+    background-image: url(https://media.discordapp.net/attachments/709042064721182781/752591894244229179/mods.png);
+}
+
+.iconSettings {
+    background-image: url(https://media.discordapp.net/attachments/709042064721182781/752591007534547004/settings.png);
+}
+
+.button {
+    background-color: #2F2E2F!important;
+    box-shadow: inset 0 -7px 0 0 #050000!important;
+    color: #3860be;
+    border-radius: 50px;
+}
+#menuWindow {
+    border-radius: 50px;
+    background-color: rgb(47 46 47 / 70%);
+    box-shadow: 0 9px 0 0 #000000;
+}
+
+.settingsHeader {
+    background-color: rgb(47 46 47 / 70%);
+}
+
+
+
+.menuItem {
+    background: rgba(255, 255, 255, 0);
+}
+
+.accountButton {
+    background-color: #3860be;
+    border-radius: 50px;
+}
+
+.headerBar {
+    background-color: rgb(0 0 0 / 0%);
+}
+
+* {
+    color: #3860be;
+}
+
+.sliderVal {
+    background: #3860be;
+    border-radius: 50px;
+}
+
+.sliderM {
+    background-color: #413F41;
+}
+
+.slider {
+    background-color: #2F2E30;
+    -webkit-transition: 1.4s;
+    transition: 1.4s;
+    border-radius: 50px;
+}
+
+.slider:before {
+    background-color: #3860be;
+    transition: .8s;
+    border-radius: 50px;
+}
+
+.inputGrey2 {
+    background: #2E2E31;
+}
+
+.sliderM::-webkit-slider-thumb {
+    background: #3860be;
+... (264 lines left)
+}
+
+#mainLogo, #seasonLabel {
+	display: none;
+}
+
+#newsHolder, #ot-sdk-btn-floating .ot-floating-button__front {
+    display: none;
+}
+
+.downloadClient, .redditSocial, .discordSocial, #editorBtnM {
+   width: 0px;
+   height: 0px;
+
+}
+
+#headerRight {
+    position: relative;
+    left: 2250px;
+}
+
+.headerBar {
+  display: none;
+}
+
+#tlInfHold {
+    z-index: 20;
+    position: absolute;
+    left: 138px;
+    top: 78px;
+    display: none;
+}
+
+#mLevelCont {
+    display: none;
+}
+
+.verticalSeparator {
+    background: transparent!important;
+}
+
+#termsInfo {
+    background: transparent!important;
+}
+
+.verticalSeparatorInline {
+    display: inline-block;
+    border-left: 4px solid rgb(255 255 255 / 0%);
+    height: 45px;
+    transform: translateY(9px);
+}
+
+.standout {
+    display: none;
+}
+
+.button {
+	background-color: transparent !important;
+	color: white!important;
+	text-shadow: none !important;
+	box-shadow: none !important;
+	text-transform: var(--text-transform);
+}
+
+.button:hover {
+	background-color: transparent !important;
+	color:  #3860be !important;
+	box-shadow: none!important;
+	-webkit-transform: none;
+	transform: none;
+
+}
+
+#headerRight {
+    position: relative;
+    left: 2250px;
+}
+
+.headerBar {
+  display: none;
+}
+
+#tlInfHold {
+    z-index: 20;
+    position: absolute;
+    left: 138px;
+    top: 78px;
+    display: none;
+}
+
+#mLevelCont {
+    display: none;
+}
+
+#headerRight {
+    position: relative;
+    left: 2250px;
+}
+
+
+.standout {
+    display: none;
+}
+
+.button {
+	background-color: transparent !important;
+	color: white!important;
+	text-shadow: none !important;
+	box-shadow: none !important;
+	text-transform: var(--text-transform);
+}
+
+.button:hover {
+	background-color: transparent !important;
+	color:  #3860be !important;
+	box-shadow: none!important;
+	-webkit-transform: none;
+	transform: none;
+}
+
+.crStat {
+    text-align: center;
+    color: rgb(255 255 255 / 0%);
+    background-color: rgb(255 255 255 / 0%);
+    padding: 15px;
+    border-radius: 6px;
+    border: 4px solid rgb(255 255 255 / 0%);
+}
+
+#kdLayout {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 6px;
+    background-color: rgba(255,255,255,.0);
+    border-radius: 6px;
+    border: 4px solid rgba(255,255,255,.0);
+}
+
+.endSection {
+    background-color: rgb(0 0 0 / 0%);
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.gfSection {
+    background-color: rgb(0 0 0 / 0%);
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.xpEndBarB {
+    display: inline-block;
+    height: 100%;
+    background-color: #3860be;
+    transition: width 1s ease-in-out;
+}
+
+.progressBarInner {
+    height: 100%;
+    background: #3860be;
+    border-radius: 0px;
+}
+
+#subLogoButtons:hover {
+	color: #3860be !important;
+}
+
+.reportBut {
+    color: #3860be;
+}
+
+a {
+    cursor: pointer;
+    text-shadow: none;
+    color: #ff0000!important;
+    text-decoration: none;
+    pointer-events: all;
+}
+
+.tabHeader.selected {
+    color: #3860be;
+    border-bottom: 4px solid #3860be;
+}
+
+.saleTag {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 3px;
+    text-shadow: none;
+    padding: 5px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    z-index: 2;
+}
+
+.settingsHeader {
+    width: 100%;
+    padding-top: 19px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    z-index: 9999999;
+    background-color: #fff0;
+    padding-left: 20px;
+    margin-left: -20px;
+}
+
+#menuWindow {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 6px;
+    max-height: calc(100% - 480px);
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    overflow-y: auto;
+    display: inline-block;
+    text-align: left;
+    pointer-events: auto;
+    padding: 20px;
+    width: 705px;
+    font-size: 20px;
+    background-color: #ffffff59;
+    -webkit-box-shadow: 0 9px 0 0 #a6a6a6;
+    -moz-box-shadow: 0 9px 0 0 #a6a6a6;
+    box-shadow: 0 9px 0 0 #a6a6a6;
+}
+
+#limitedBarProg {
+    background-color: #3860be;
+    height: 35px;
+}
+
+.settingsBtn {
+    color: rgba(255,255,255,.7);
+    text-align: center;
+    display: inline-block;
+    width: 75px;
+    cursor: pointer;
+    background-color: #3860be;
+    font-size: 17px;
+    padding: 4px 8px;
+    margin-left: 8px;
+    float: right;
+    border-radius: 4px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sliderVal {
+    float: right;
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    color: #fff;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+    background: #3860be;
+    padding: 5px 10px;
+    margin-left: 8px;
+    margin-right: -10px;
+    border-radius: 6px;
+}
+
+input:checked+.slider {
+    background-color: #000;
+}
+
+input[type=color] {
+    -webkit-appearance: none;
+    border: 4px solid #000000;
+    padding: 0;
+    width: 55px;
+    height: 24px;
+    border-radius: 5px;
+}
+
+.quickJoin {
+    border-radius: 5px;
+    background-color: #3860be;
+    font-size: 14px;
+    padding: 6px;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 99999;
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    -webkit-transition: all .01s;
+    transition: all .01s;
+}
+
+.serverHeader {
+    width: 100%;
+    padding-top: 19px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999999999;
+    background-color: #9b6f6f00;
+}
+
+input:checked+.slider2 {
+    background-color: #000000;
+}
+
+#healthValue {
+	color:  white!important;
+	font-family: hpammo;
+	font-size: 48px;
+	text-align: center;
+	text-shadow: 5px 5px black;
+	margin-top: 0;
+	will-change: unset;
+}
+
+#ammoDisplay {
+	background-color: transparent !important;
+	letter-spacing: 0;
+	width: 100px;
+	height: 65px;
+	border-radius: 0;
+	position: fixed;
+	right: 31%;
+	bottom: 25%;
+	padding: 0;
+	padding-top: 0;
+	padding-left: 0;
+	transform: none;
+        color: white!important;
+        text-shadow: 5px 5px black;
+}
+
+#ammoVal {
+	color: white!important;
+	font-family: hpammo;
+	font-size: 48px;
+	margin-left: 12px;
+	text-shadow: 5px 5px black;
+}
+
+
+#ammoMax {
+	display: none;
+}
+
+#ammoIcon {
+	display: none !important;
+}
+
+#healthBar {
+     display: none;
+}
+
+#healthIcon {
+	display: none;
+}
+
+#healthValueHolder {
+	background-color: transparent !important;
+	width: 100px;
+	height: 65px;
+	border-radius: 0;
+	position: fixed;
+	left: 30%;
+	bottom: 25%;
+	padding: 0;
+	margin-bottom: 0;
+	padding-right: 0;
+	padding-left: 0;
+	align-items: center;
+        text-shadow: 3px 3px black;
+}
+
+#maxHP {
+	display: none;
+}
+
+.hpBSeg, .healthBarSeg {
+	border-radius: var(--health-bar-roundness);
+}
+
+#challIcon {
+	top: 40px;
+	left: 50px;
+	width: auto;
+}
+#ot-sdk-btn-floating.ot-floating-button {
+    display: none;
+}
+
+
+#menuItemContainer {
+    width: fit-content;
+    height: min-content;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: row;
+}
+
+.menuItem {
+    align-items: center;
+    background: transparent;
+    padding-bottom: 5px;
+    padding-left: 22px;
+    padding-right: 22px;
+    pointer-events: none;
+}
+
+.menuItem:hover {
+    background: transparent;
+    color: #3860be !important;
+    border-left: none;
+}
+
+.menuItem:active {
+    background: transparent;
+    color: white;
+}
+
+.menuItem .menuItemTitle {
+    margin-top: 0;
+    color: white !important;
+    font-size: 18px !important;
+    text-transform: var(--text-transform);
+    pointer-events: all;
+    transition: all .2s;
+}
+
+.menuItemTitle:hover {
+    color: #3860be !important;
+}
+
+#pingText {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px black;
+    color: #b8b8b8;
+}
+
+#ingameFPS {
+    letter-spacing: 1px;
+    text-shadow: 2px 2px black;
+    color: #ffffff !important;
+    visibility: visible!important;
+}
+
+#pingDisplay .material-icons {
+    display: none!important;
+}
+
+#fpsDisplay {
+    visibility: hidden!important;
+}
+
+.menuItem .menuItemIcon {
+    position: relative;
+    width: 100%;
+    height: 45%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#ingameFPS {
+	color: #3860be !important;
+}
+
+#subLogoButtons {
+    bottom: 50px;
+    transform: translateX(-50%)
+}
+
+#menuBtnHost {
+    visibility: hidden;
+    font-size: 0 !important;
+}
+
+#menuBtnHost::after {
+    visibility: visible;
+    font-size: 18px !important;
+    content: 'Host';
+    text-transform: var(--text-transform);
+}
+
+.loadoutBtn {
+    color: rgba(255,255,255,.7);
+    text-align: center;
+    display: inline-block;
+    width: 75px;
+    cursor: pointer;
+    background-color: #3860be;
+    font-size: 15px;
+    padding: 4px;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: right;
+    border-radius: 6px;
+}
+
+.clsXPBarC {
+    margin: 4px;
+    background-color: #3860be;
+    height: 18px;
+}
+
+#timerIcon {
+    width: 0px;
+    height: 0px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges
+}
+
+#ammoIcon {
+  display: none;
+}
+
+.premiumSkinCol {
+    color: #ff0000!important;
+    font-size: 42px!important;
+    vertical-align: middle;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: -3px;
+}
+
+.fundsVal {
+	color: #fff;
+}
+
+input:checked+.optCheck {
+    background-color: #3860be;
+}
+
+.hostToggle {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 75px;
+    cursor: pointer;
+    background-color: #3860be;
+    font-size: 15px;
+    padding: 4px;
+    float: right;
+    border-radius: 4px;
+}
+
+.xpBarB {
+    height: 100%;
+    background-color: #3860be;
+}
+
+.onMenu #instructions {
+    display: none;
+}
+
+.settText {
+    cursor: pointer;
+    color: #3860be;
+    font-size: 22px;
+    pointer-events: auto;
+}
+
+#menuClassContainer {
+    transform: unset;
+}
+
+#menuClassNameTag {
+    display: none;
+}
+
+#bubbleContainer {
+    display: none;
+}
+
+#menuClassName, #menuClassSubtext {
+    text-shadow: none;
+}
+
+#menuClassName {
+    font-size: 28px;
+}
+
+#menuClassSubtext {
+    color: var(--accent);
+}
+
+#leaderDisplay::before {
+    content: "Daud";
+    display: flex;
+    font-size: 24px;
+    color: #fff;
+    border-bottom: 4px solid var(--accent);
+    border-image-slice: 1;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+}
+
+#leaderDisplay {
+    background-color: transparent;
+}
+
+.leaderName, .newLeaderName, .newLeaderNameF, .endTableN[style*="color:#eb5656"] {
+    color: #3860be !important;
+}
+
+
+#customizeButton .material-icons {
+    display: none;
+}
+
+.sliderM {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    color: r;
+    color: #3860be !important;
+    height: 15px;
+    background-color: #a8a8a8;
+    outline: none;
+    border-radius: 100px;
+}
+
+.sliderM::-webkit-slider-thumb {
+     background-color: #3860be;
+}
+
+#challIcon {
+	display: none;
+}
+
+#weapDisplay {
+    display:flex !important;
+    flex-direction:row;
+    position:fixed;
+    left:40%;
+    top:94%;
+}
+.weapKey {
+    display:none;
+}
+.weapIcon[style="opacity: 1;"] {
+    transform:scale(1.15);
+    transition-duration:0.3s;
+}
+.weapIcon[style="opacity: 1; margin-right: 25px;"] {
+    transform:scale(1.15);
+    transition-duration:0.3s;
+}
+#menuClassContainer {
+    opacity: 0.9;
+    position: fixed;
+    left: -82%;
+    bottom: -50%;
+    transform: scale(0.80);
+    z-index: 999999;
+}
+
+#voiceDisplay {
+    display: none;
+}
+
+#uiBase.onMenu #chatHolder {
+    left: unset;
+    right: 2273px;
+    bottom: 1000px !important;
+    z-index: 21;
+}
+
+#chatHolder[style="bottom: 148px;"] {
+    left: 20px !important;
+    bottom: 240px !important;
+}
+
+#uiBase.onMenu #chatList {
+    text-align: right;
+}
+
+.chatTextOutline {
+    text-shadow: none;
+}
+
+.chatItem {
+    background-color: var(--bg-color) !important;
+    color: var(--accent);
+    font-size: 20px;
+    border-radius: 0px;
+    padding: 8px 16px;
+    margin-left: 0;
+    margin-right: 6px;
+    max-width: 280px;
+    box-shadow: 6px 6px var(--accent);
+}
+
+#uiBase.onMenu .chatItem {
+    box-shadow: none;
+}
+
+.chatMsg {
+    color: var(--text-color);
+}
+
+.chatMsg span[style*="#fff"] {
+    color: var(--text-color) !important;
+}
+
+.chatMsg span[style*="#9eeb56"] {
+    color: var(--text-color) !important;
+}
+
+.chatMsg[style="color:#fc03ec"] {
+    color: var(--accent) !important;
+}
+
+#chatInput {
+    color: #fff;
+    background-color: var(--accent);
+    border-radius: 0px;
+    transform: scale(0);
+    height: 0;
+    padding: 0;
+    transition-duration: 0.25s;
+    font-size: 16px;
+}
+
+#chatInput:focus {
+    height: 122%;
+    padding: 8px 16px;
+    transform: scale(1);
+}
+
+#chatInput::placeholder {
+    color: #fff;
+}
+
+.weaponChatIcon, .headShotChatIcon {
+    filter: brightness(0.5);
+}
